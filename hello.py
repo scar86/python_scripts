@@ -57,7 +57,7 @@ brian = "Hello life!"
 
 
 # Assign your variables below, each on its own line!
-
+print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
 caesar = "Graham"
 praline = "John"
 viking = "Teresa"
@@ -132,9 +132,25 @@ print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 #input and printing
 
-name = raw_input("What is your name?")
-quest = raw_input("What is your quest?")
-color = raw_input("What is your favorite color?")
+#name = raw_input("What is your name?")
+#quest = raw_input("What is your quest?")
+#color = raw_input("What is your favorite color?")
 
-print "Ah, so your name is %s, your quest is %s, " \
-"and your favorite color is %s." % (name, quest, color)
+#print "Ah, so your name is %s, your quest is %s, " \
+#"and your favorite color is %s." % (name, quest, color)
+
+"delta".upper()
+
+#time
+from datetime import datetime
+
+#print current time
+
+now = datetime.now()
+print now
+print now.year #print only year, month day
+print now.month
+print now.day
+print '%s/%s/%s' % (now.month, now.day, now.year) #string substitution
+print '%s:%s:%s' % (now.hour, now.minute, now.second) #hour with string substitution
+print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second)

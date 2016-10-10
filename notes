@@ -7,3 +7,29 @@ You can use variables to store booleans like this:
 
 
 
+Great work! Now that we know how to store strings, let's see how we can change them using string methods.
+
+String methods let you perform specific tasks for strings.
+
+We'll focus on four string methods:
+
+len()
+lower()
+upper()
+str()
+
+
+Comparadores
+
+Compare Closely!
+Let's start with the simplest aspect of control flow: comparators. There are six:
+
+Equal to (==)
+Not equal to (!=)
+Less than (<)
+Less than or equal to (<=)
+Greater than (>)
+Greater than or equal to (>=)
+Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
+
+Note that == compares whether two things are equal, and = assigns a value to a variable.
