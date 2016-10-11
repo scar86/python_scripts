@@ -13,3 +13,15 @@ def clinic():
         clinic()
 
 clinic()
+
+def great_less_equal5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:
+        return -1
+    else:
+         return 0
+
+print great_less_equal5(4)
+print great_less_equal5(5)
+print great_less_equal5(6)
