@@ -33,3 +33,23 @@ Greater than or equal to (>=)
 Comparators check if a value is (or is not) equal to, greater than (or equal to), or less than (or equal to) another value.
 
 Note that == compares whether two things are equal, and = assigns a value to a variable.
+
+zip to itetare on two list at a time
+list_a = [3, 9, 17, 15, 19]
+list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
+
+for a, b in zip(list_a, list_b):
+    # Add your code here!
+    if a > b:
+        print a
+    else:
+        print b
+
+
+
+create dic from two list
+>>> keys = ['a', 'b', 'c']
+>>> values = [1, 2, 3]
+>>> dictionary = dict(zip(keys, values))
+>>> print dictionary
+{'a': 1, 'b': 2, 'c': 3}
